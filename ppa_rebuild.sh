@@ -4,7 +4,7 @@
 # sudo wget -O /tmp/tmp.deb http://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_3.0.6-1_amd64.deb
 # sudo apt install -y /tmp/tmp.deb
 
-
+exit
 
 # ask question during installation
 sudo apt install -y wireshark
@@ -133,6 +133,10 @@ sudo apt install -y paper-icon-theme
 sudo add-apt-repository -y ppa:freecad-maintainers/freecad-stable
 sudo apt-get update
 sudo apt install -y freecad
+
+sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
+sudo apt update
+sudo apt install -y --install-suggests kicad
 
 
 # not verified
