@@ -121,6 +121,8 @@ sudo apt install -y vim
 sudo apt install -y python3 python3-dev python3-pip
 
 sudo apt install -y zsh zsh-autosuggestions zsh-syntax-highlighting
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
 sudo wget -O /tmp/franz.deb https://github.com/meetfranz/franz/releases/download/v5.2.0/franz_5.2.0_amd64.deb
 sudo apt install -y /tmp/franz.deb
