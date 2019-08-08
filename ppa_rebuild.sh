@@ -52,7 +52,7 @@ wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.
 
 sudo apt-get install -y zsh curl
 
-sudo apt install -y git
+sudo apt install -y git git-flow
 git config --global user.email "louiscklaw@gmail.com"
 git config --global user.name "louiscklaw"
 git config --global core.editor "vim"
