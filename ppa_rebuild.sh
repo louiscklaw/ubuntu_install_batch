@@ -6,8 +6,6 @@
 
 
 
-
-
 # ask question during installation
 sudo apt install -y wireshark
 
@@ -130,6 +128,11 @@ sudo apt install -y /tmp/franz.deb
 sudo add-apt-repository -y -u ppa:snwh/ppa
 sudo apt update
 sudo apt install -y paper-icon-theme
+
+
+sudo add-apt-repository -y ppa:freecad-maintainers/freecad-stable
+sudo apt-get update
+sudo apt install -y freecad
 
 
 # not verified
