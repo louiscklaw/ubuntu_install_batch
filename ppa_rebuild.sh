@@ -50,7 +50,12 @@ sudo apt-get install -y filemanager-actions-nautilus-extension # Nautilus
 wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.sh | bash
 
 
-sudo apt-get install -y zsh curl git
+sudo apt-get install -y zsh curl
+
+sudo apt install -y git
+git config --global user.email "louiscklaw@gmail.com"
+git config --global user.name "louiscklaw"
+git config --global core.editor "vim"
 
 # sudo apt-get install -y software-properties-common && \
 # sudo add-apt-repository -y ppa:tmate.io/archive    && \
