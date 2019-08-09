@@ -5,7 +5,8 @@
 # sudo apt install -y /tmp/tmp.deb
 
 
-
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+exit
 
 
 # ask question during installation
