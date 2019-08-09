@@ -4,6 +4,8 @@
 # sudo wget -O /tmp/tmp.deb http://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_3.0.6-1_amd64.deb
 # sudo apt install -y /tmp/tmp.deb
 
+
+
 exit
 
 
@@ -45,7 +47,7 @@ sudo apt install -y gnome-tweaks gnome-tweak-tool
 sudo apt-get install -y python python-dev python-pip
 sudo apt-get install -y python3 python3-dev python3-pip
 
-
+sudo apt install -y nodejs npm
 
 sudo apt-get install -y curl python-nautilus
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
