@@ -5,8 +5,10 @@
 # sudo apt install -y /tmp/tmp.deb
 
 
-sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+
 exit
+
+
 
 
 # ask question during installation
@@ -108,7 +110,7 @@ sudo apt-get install -y tilix
 sudo apt install -y net-tools
 sudo apt install -y traceroute
 
-
+sudo apt install -y sni-qt
 sudo apt-get install -y libcanberra-gtk-module
 sudo wget -O /tmp/tmp.deb http://security.ubuntu.com/ubuntu/pool/universe/s/synergy/synergy_1.8.8-stable+dfsg.1-1build1_amd64.deb
 sudo apt install -y /tmp/tmp.deb
@@ -131,8 +133,9 @@ sudo apt update
 sudo apt install -y paper-icon-theme
 
 
+# configure after done
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+
 # not verified
-
-
 
 exit
