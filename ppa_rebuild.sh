@@ -4,6 +4,7 @@
 # sudo wget -O /tmp/tmp.deb http://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_3.0.6-1_amd64.deb
 # sudo apt install -y /tmp/tmp.deb
 
+
 exit
 
 
@@ -25,7 +26,7 @@ sudo apt install -y htop glances
 sudo apt install -y gnome-shell-extension-caffeine  gnome-shell-extension-dashtodock  gnome-shell-extension-disconnect-wifi  gnome-shell-extension-hard-disk-led gnome-shell-extension-tilix-dropdown  gnome-shell-extension-hide-activities gnome-shell-extension-mediaplayer gnome-shell-extension-pixelsaver gnome-shell-extension-remove-dropdown-arrows gnome-shell-extension-trash gnome-shell-extension-weather gnome-shell-extensions gnome-shell-pomodoro
 
 sudo add-apt-repository -y ppa:kritalime/ppa
-sudo apt install -y krita
+sudo apt install -y krita krita-nautilus-thumbnailer
 
 
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 4773BD5E130D1D45
@@ -155,6 +156,9 @@ sudo apt-get install  -y  oranchelo-icon-theme
 sudo add-apt-repository -y ppa:obsproject/obs-studio
 sudo apt update
 sudo apt install -y obs-studio
+
+sudo apt install -y nautilus-emblems nautilus-gtkhash
+
 
 
 
