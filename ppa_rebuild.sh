@@ -8,8 +8,6 @@
 exit
 
 
-
-
 # ask question during installation
 sudo apt install -y wireshark
 
@@ -17,6 +15,8 @@ sudo curl https://j.mp/spf13-vim3 -L > /tmp/spf13-vim.sh
 sudo sh /tmp/spf13-vim.sh
 
 # no question during installation
+
+sudo apt install -y p7zip-full
 
 sudo apt install -y ack entr
 sudo apt install -y gnome-mpv mpv
@@ -159,7 +159,9 @@ sudo apt install -y obs-studio
 
 sudo apt install -y nautilus-emblems nautilus-gtkhash
 
+sudo pip install --user magic-wormhole
 
+sudo apt install -y gedit-plugins gedit-plugin-bracket-completion gedit-plugin-code-comment gedit-plugin-text-size gedit-source-code-browser-plugin
 
 
 # configure after done
