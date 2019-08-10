@@ -141,6 +141,10 @@ sudo add-apt-repository -y -u ppa:snwh/ppa
 sudo apt update
 sudo apt install -y paper-icon-theme
 
+sudo add-apt-repository ppa:papirus/papirus
+sudo apt update
+sudo apt install papirus-icon-theme
+
 
 # configure after done
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
