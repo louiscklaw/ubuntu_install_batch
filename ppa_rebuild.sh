@@ -5,7 +5,6 @@
 # sudo apt install -y /tmp/tmp.deb
 
 
-
 exit
 
 
@@ -20,11 +19,14 @@ sudo apt install -y wireshark
 
 sudo apt install -y ack entr
 sudo apt install -y gnome-mpv mpv
+sudo apt install -y htop glances
+
 
 sudo apt install -y gnome-shell-extension-caffeine  gnome-shell-extension-dashtodock  gnome-shell-extension-disconnect-wifi  gnome-shell-extension-hard-disk-led gnome-shell-extension-tilix-dropdown  gnome-shell-extension-hide-activities gnome-shell-extension-mediaplayer gnome-shell-extension-pixelsaver gnome-shell-extension-remove-dropdown-arrows gnome-shell-extension-trash gnome-shell-extension-weather gnome-shell-extensions gnome-shell-pomodoro
 
 sudo add-apt-repository -y ppa:kritalime/ppa
 sudo apt install -y krita
+
 
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 4773BD5E130D1D45
 sudo add-apt-repository -y "deb http://repository.spotify.com stable non-free"
