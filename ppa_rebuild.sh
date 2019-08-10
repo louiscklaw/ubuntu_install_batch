@@ -141,10 +141,13 @@ sudo add-apt-repository -y -u ppa:snwh/ppa
 sudo apt update
 sudo apt install -y paper-icon-theme
 
-sudo add-apt-repository ppa:papirus/papirus
+sudo add-apt-repository -y  ppa:papirus/papirus
 sudo apt update
-sudo apt install papirus-icon-theme
+sudo apt install  -y  papirus-icon-theme
 
+sudo add-apt-repository -y  ppa:oranchelo/oranchelo-icon-theme
+sudo apt-get update
+sudo apt-get install  -y  oranchelo-icon-theme
 
 # configure after done
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
