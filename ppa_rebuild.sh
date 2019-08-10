@@ -4,7 +4,6 @@
 # sudo wget -O /tmp/tmp.deb http://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_3.0.6-1_amd64.deb
 # sudo apt install -y /tmp/tmp.deb
 
-
 exit
 
 
@@ -158,14 +157,16 @@ sudo apt update
 sudo apt install -y obs-studio
 
 
-sudo systemctl disable apport
-sudo apt purge -y apport
-
 
 # configure after done
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
+# remove origional dock
+sudo apt remove -y gnome-shell-extension-ubuntu-dock
 
+# disable error reporting
+sudo systemctl disable apport
+sudo apt purge -y apport
 
 
 # not verified
