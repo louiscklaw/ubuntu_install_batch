@@ -13,7 +13,8 @@ exit
 # ask question during installation
 sudo apt install -y wireshark
 
-curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
+sudo curl https://j.mp/spf13-vim3 -L > /tmp/spf13-vim.sh
+sudo sh /tmp/spf13-vim.sh
 
 # no question during installation
 
