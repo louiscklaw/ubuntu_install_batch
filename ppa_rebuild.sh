@@ -169,6 +169,14 @@ sudo systemctl disable apport
 sudo apt purge -y apport
 
 
+# disable automount in gnome for usb device
+gsettings set org.gnome.desktop.media-handling automount false
+gsettings get org.gnome.desktop.media-handling automount
+
+gsettings set org.gnome.desktop.media-handling automount-open false
+gsettings get org.gnome.desktop.media-handling automount-open
+
+
 # not verified
 
 exit
