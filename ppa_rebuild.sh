@@ -151,8 +151,17 @@ sudo add-apt-repository -y  ppa:oranchelo/oranchelo-icon-theme
 sudo apt-get update
 sudo apt-get install  -y  oranchelo-icon-theme
 
+
+sudo add-apt-repository -y ppa:obsproject/obs-studio
+sudo apt update
+sudo apt install -y obs-studio
+
+
 # configure after done
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+
+
+
 
 # not verified
 
