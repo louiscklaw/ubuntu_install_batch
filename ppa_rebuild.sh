@@ -13,7 +13,7 @@ exit
 # ask question during installation
 sudo apt install -y wireshark
 
-
+curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 
 # no question during installation
 
@@ -155,6 +155,10 @@ sudo apt-get install  -y  oranchelo-icon-theme
 sudo add-apt-repository -y ppa:obsproject/obs-studio
 sudo apt update
 sudo apt install -y obs-studio
+
+
+sudo systemctl disable apport
+sudo apt purge -y apport
 
 
 # configure after done
