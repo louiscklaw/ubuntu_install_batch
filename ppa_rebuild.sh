@@ -15,6 +15,7 @@ sudo curl https://j.mp/spf13-vim3 -L > /tmp/spf13-vim.sh
 sudo sh /tmp/spf13-vim.sh
 
 # no question during installation
+sudo apt install -y tmux
 
 sudo apt install -y p7zip-full
 
