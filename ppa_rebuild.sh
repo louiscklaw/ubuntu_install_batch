@@ -4,8 +4,6 @@
 # sudo wget -O /tmp/tmp.deb http://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_3.0.6-1_amd64.deb
 # sudo apt install -y /tmp/tmp.deb
 
-sudo apt install -y gnome-sushi
-
 
 exit
 
@@ -170,6 +168,21 @@ sudo apt install -y gedit-plugins gedit-plugin-bracket-completion gedit-plugin-c
 sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
 sudo apt install -y kicad
 
+sudo apt install -y gnome-sushi
+sudo apt install -y gnome-contacts
+
+
+sudo snap remove gnome-calculator
+sudo apt install -y gnome-calculator
+
+sudo snap remove gnome-logs
+sudo apt install -y gnome-logs
+
+sudo snap remove gnome-system-monitor
+sudo apt install -y gnome-system-monitor
+
+sudo snap remove gnome-characters
+sudo apt install -y gnome-characters
 
 
 # configure after done
@@ -190,6 +203,7 @@ gsettings get org.gnome.desktop.media-handling automount
 gsettings set org.gnome.desktop.media-handling automount-open false
 gsettings get org.gnome.desktop.media-handling automount-open
 
+sudo snap set system refresh.retain=2
 
 # not verified
 
