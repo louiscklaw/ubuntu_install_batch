@@ -4,6 +4,8 @@
 # sudo wget -O /tmp/tmp.deb http://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_3.0.6-1_amd64.deb
 # sudo apt install -y /tmp/tmp.deb
 
+sudo apt install -y gnome-sushi
+
 
 exit
 
@@ -163,6 +165,11 @@ sudo apt install -y nautilus-emblems nautilus-gtkhash
 sudo pip install --user magic-wormhole
 
 sudo apt install -y gedit-plugins gedit-plugin-bracket-completion gedit-plugin-code-comment gedit-plugin-text-size gedit-source-code-browser-plugin
+
+
+sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
+sudo apt install -y kicad
+
 
 
 # configure after done
