@@ -67,6 +67,7 @@ sudo apt-get install -y code
 
 sudo add-apt-repository -y ppa:daniel-marynicz/filemanager-actions
 sudo apt-get install -y filemanager-actions-nautilus-extension # Nautilus
+sudo apt-get install -y folder-color
 wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.sh | bash
 
 
