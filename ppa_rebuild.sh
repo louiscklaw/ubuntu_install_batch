@@ -4,6 +4,9 @@
 # sudo wget -O /tmp/tmp.deb http://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_3.0.6-1_amd64.deb
 # sudo apt install -y /tmp/tmp.deb
 
+sudo npm install -g sass
+sudo apt install -y git git-flow tig gitg
+
 exit
 
 # source
@@ -69,7 +72,7 @@ wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.
 
 sudo apt-get install -y zsh curl
 
-sudo apt install -y git git-flow tig
+sudo apt install -y git git-flow tig gitg
 git config --global user.email "louiscklaw@gmail.com"
 git config --global user.name "louiscklaw"
 git config --global core.editor "vim"
