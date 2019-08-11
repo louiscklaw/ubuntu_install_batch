@@ -4,21 +4,22 @@
 # sudo wget -O /tmp/tmp.deb http://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_3.0.6-1_amd64.deb
 # sudo apt install -y /tmp/tmp.deb
 
-
 exit
 
+# source
+# https://www.linuxuprising.com/
 
 # ask question during installation
 sudo apt install -y wireshark
 
+sudo apt install -y curl
 sudo curl https://j.mp/spf13-vim3 -L > /tmp/spf13-vim.sh
 sudo sh /tmp/spf13-vim.sh
 
 # no question during installation
 sudo apt install -y tmux
-
+sudo apt install -y httpie
 sudo apt install -y p7zip-full
-
 sudo apt install -y ack entr
 sudo apt install -y gnome-mpv mpv
 sudo apt install -y htop glances
@@ -183,6 +184,23 @@ sudo apt install -y gnome-system-monitor
 
 sudo snap remove gnome-characters
 sudo apt install -y gnome-characters
+
+sudo apt install -y adwaita-icon-theme-full
+
+sudo add-apt-repository -y ppa:tista/plata-theme
+sudo apt update
+sudo apt install -y plata-theme
+
+
+wget -O /tmp/temp.deb https://github.com/DamirPorobic/ksnip/releases/download/v1.5.0/ksnip-1.5.0.deb
+sudo apt install -y /tmp/temp.deb
+
+
+sudo curl https://rclone.org/install.sh | sudo bash
+
+
+sudo wget -O /tmp/temp.deb https://github.com/kamranahmedse/pennywise/releases/download/v0.8.0/pennywise_0.8.0_amd64.deb
+sudo apt install -y /tmp/temp.deb
 
 
 # configure after done
