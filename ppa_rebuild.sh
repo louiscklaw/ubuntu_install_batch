@@ -99,6 +99,7 @@ sudo apt install -y caffeine
 sudo apt install -y neofetch
 sudo apt-get install -y gdebi
 
+sudo apt install -y gconf2
 wget -O /tmp/tmp.deb https://github.com/oguzhaninan/Stacer/releases/download/v1.0.4/Stacer_1.0.4_amd64.deb
 sudo dpkg --install /tmp/tmp.deb
 
@@ -222,6 +223,11 @@ gsettings set org.gnome.desktop.media-handling automount-open false
 gsettings get org.gnome.desktop.media-handling automount-open
 
 sudo snap set system refresh.retain=2
+
+# before exit
+sudo apt upgrade -y
+sudo apt autoremove -y
+
 
 # not verified
 
