@@ -54,6 +54,7 @@ sudo apt install -y imwheel
 sudo apt install -y gnome-tweaks gnome-tweak-tool
 sudo apt-get install -y python python-dev python-pip
 sudo apt-get install -y python3 python3-dev python3-pip
+sudo apt-get install -y fabric
 
 sudo apt install -y nodejs npm
 
