@@ -98,7 +98,7 @@ sudo apt-get install -y uget
 
 sudo apt install -y chromium-browser remmina
 
-
+sudo apt install -y flameshot
 sudo apt install -y kazam
 
 
