@@ -4,8 +4,9 @@
 # sudo wget -O /tmp/tmp.deb http://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_3.0.6-1_amd64.deb
 # sudo apt install -y /tmp/tmp.deb
 
-sudo npm install -g sass
-sudo apt install -y git git-flow tig gitg
+sudo apt install -y tmux
+cd && git clone https://github.com/gpakosz/.tmux.git && ln -s -f .tmux/.tmux.conf && cp .tmux/.tmux.conf.local .
+
 
 exit
 
@@ -21,6 +22,8 @@ sudo sh /tmp/spf13-vim.sh
 
 # no question during installation
 sudo apt install -y tmux
+cd && git clone https://github.com/gpakosz/.tmux.git && ln -s -f .tmux/.tmux.conf && cp .tmux/.tmux.conf.local .
+
 sudo apt install -y httpie
 sudo apt install -y p7zip-full
 sudo apt install -y ack entr
@@ -57,6 +60,9 @@ sudo apt-get install -y python3 python3-dev python3-pip
 sudo apt-get install -y fabric
 
 sudo apt install -y nodejs npm
+sudo apt install -y git git-flow tig gitg
+sudo npm install -g sass
+
 
 sudo apt-get install -y curl python-nautilus
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
