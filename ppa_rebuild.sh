@@ -21,6 +21,9 @@ sudo curl https://j.mp/spf13-vim3 -L > /tmp/spf13-vim.sh
 sudo sh /tmp/spf13-vim.sh
 
 # no question during installation
+
+sudo apt install -y openssh-server
+
 sudo apt install -y tmux
 cd && git clone https://github.com/gpakosz/.tmux.git && ln -s -f .tmux/.tmux.conf && cp .tmux/.tmux.conf.local .
 
