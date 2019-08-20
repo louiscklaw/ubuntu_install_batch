@@ -4,6 +4,9 @@
 # sudo wget -O /tmp/tmp.deb http://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_3.0.6-1_amd64.deb
 # sudo apt install -y /tmp/tmp.deb
 
+# git-stand
+curl -L https://raw.githubusercontent.com/kamranahmedse/git-standup/master/installer.sh | sudo sh
+
 sudo apt install -y tmux
 cd && git clone https://github.com/gpakosz/.tmux.git && ln -s -f .tmux/.tmux.conf && cp .tmux/.tmux.conf.local .
 
